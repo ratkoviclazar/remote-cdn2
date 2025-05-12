@@ -5,6 +5,7 @@ import cssInjectedByJsPlugin from 'vite-plugin-css-injected-by-js';
 export default defineConfig({
   plugins: [react(), cssInjectedByJsPlugin()],
   build: {
+    cssCodeSplit: false, 
     lib: {
       entry: 'src/index.js',
       name: 'MyComponent',

@@ -1,8 +1,8 @@
 import "./Button.css";
 
-export default function Button({ label, onClick }) {
+export default function Button({ label }) {
   return (
-    <button onClick={onClick} className="my-button">
+    <button className="my-button">
       {label}
     </button>
   );

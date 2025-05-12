@@ -5,6 +5,6 @@ import Button from './Button.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Button label="Click Me" onClick={() => alert('Button clicked!')} />
+    <Button label="Click Me" />
   </StrictMode>,
 )

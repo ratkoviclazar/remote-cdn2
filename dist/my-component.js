@@ -1,3 +1,4 @@
+(function(){"use strict";try{if(typeof document<"u"){var o=document.createElement("style");o.appendChild(document.createTextNode(".my-button{display:inline-block;padding:10px 20px;font-size:16px;font-weight:700;color:#fff;background-color:#007bff;border:none;border-radius:4px;text-align:center;text-decoration:none;cursor:pointer;transition:background-color .3s ease,transform .2s ease}.my-button:hover{background-color:#0056b3;transform:scale(1.05)}.my-button:active{background-color:#003f7f;transform:scale(.95)}.my-button:disabled{background-color:#ccc;cursor:not-allowed}")),document.head.appendChild(o)}}catch(e){console.error("vite-plugin-css-injected-by-js",e)}})();
 var o = { exports: {} }, e = {};
 /**
  * @license React
